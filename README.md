@@ -1,24 +1,57 @@
-# README
+# Room Reservations API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sistema de gestión de reservas de salas de reuniones.
 
-Things you may want to cover:
+## Requisitos
 
-* Ruby version
+- Ruby 3.2+
+- Bundler
 
-* System dependencies
+## Setup
 
-* Configuration
+```bash
+# Instalar dependencias
+bundle install
 
-* Database creation
+# Crear base de datos
+rails db:migrate
 
-* Database initialization
+# Verificar que funciona
+bundle exec rspec
+```
 
-* How to run the test suite
+## Comandos Útiles
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+# Ejecutar tests
+bundle exec rspec
 
-* Deployment instructions
+# Ejecutar tests con detalle
+bundle exec rspec --format documentation
 
-* ...
+# Levantar servidor
+rails server
+
+# Consola interactiva
+rails console
+```
+
+## Estructura del Proyecto
+
+```
+app/
+  models/
+    room.rb           # Modelo de sala
+    user.rb           # Modelo de usuario
+    reservation.rb    # Modelo de reserva
+  controllers/
+    api/v1/           # Controladores API (por implementar)
+spec/
+  models/             # Tests de modelos
+  factories/          # Factories para tests
+  requests/           # Tests de API (por implementar)
+```
+
+## Documentación
+
+Ver `CLAUDE.md` para instrucciones detalladas sobre las reglas de negocio a implementar.
