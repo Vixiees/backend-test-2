@@ -1,15 +1,18 @@
 # Technical Test: Room Reservation System
 
-## Requirements
+> ## 🎥 RECORD YOUR ENTIRE SESSION
+> **This is mandatory.** We evaluate the process, not just the result.
+> Your recording is more important than your code.
+
+> ## 🤖 YOU MUST USE AI
+> **Tests without AI usage will not be evaluated.**
+> Use Claude Code, Copilot, or similar. This test is designed to showcase your AI-assisted development skills. Impress us.
 
 | | |
 |---|---|
 | **Duration** | 45 minutes maximum |
-| **Recording** | **MANDATORY** - Record your entire session. We evaluate the process, not just the result. |
-| **AI Usage** | **MANDATORY** - You must use AI (Claude Code, Copilot, etc.). Tests without AI usage will not be evaluated. |
-| **Deliverable** | Git repository with all tests passing |
-
-> **This test is designed to showcase your AI-assisted development skills. Impress us.**
+| **Deliverables** | Git repository with all tests passing |
+| | Session recording (include in repo or send via email) |
 
 ---
 
